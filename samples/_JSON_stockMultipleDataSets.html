@@ -80,6 +80,7 @@
 
 				{
 					title: "second data set",
+					compared:true,
 					fieldMappings: [{
 						fromField: "value",
 						toField: "value"
@@ -141,7 +142,7 @@
 
 					stockLegend: {
 						periodValueTextComparing: "[[percents.value.close]]%",
-						periodValueTextRegular: "[[value.close]]"
+						periodValueTextRegular: "[[value.close]]"		
 					}
 				},
 
@@ -162,7 +163,8 @@
 				}],
 
 				chartScrollbarSettings: {
-					graph: "g1"
+					graph: "g1",
+					updateOnReleaseOnly:false
 				},
 
 				chartCursorSettings: {
